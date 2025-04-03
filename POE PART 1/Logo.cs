@@ -6,6 +6,7 @@ namespace POE_PART_1
 {
     public class Logo
     {
+        // Constructor
         public Logo()
         {
             // Get the directory where the application is running

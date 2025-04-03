@@ -89,6 +89,8 @@ namespace POE_PART_1
             ignore.Add("does");
             ignore.Add("why");
             ignore.Add("how");
+            ignore.Add("a");
+            ignore.Add("work");
         }
 
         // Validates that the user has entered an empty name
@@ -97,7 +99,7 @@ namespace POE_PART_1
             if (string.IsNullOrEmpty(name))
             {
                 Console.ForegroundColor = ConsoleColor.DarkRed;
-                Console.WriteLine("AI BOT: Please enter a valid name, name cannot be empty");
+                Console.WriteLine("AI BOT: Please enter a valid name, name cannot be empty.");
                 return false;
             }
             return true;
@@ -106,10 +108,11 @@ namespace POE_PART_1
         // Validates that the user has entered a non-empty question
         private bool Validate_UserQuestion(string question)
         {
-            if (string.IsNullOrEmpty(question))
+            // Checks if input is empty or too short
+            if (string.IsNullOrEmpty(question) || question.Trim().Length < 3) 
             {
                 Console.ForegroundColor = ConsoleColor.DarkRed;
-                Console.WriteLine("AI BOT: Please enter a valid Question, Question cannot be empty");
+                Console.WriteLine("AI BOT: Please enter a valid question.");
                 return false;
             }
             return true;
