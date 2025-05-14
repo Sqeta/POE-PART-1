@@ -76,5 +76,8 @@ The bot will display different answers related to that topic
 
 ![Screenshot 2025-05-14 213623](https://github.com/user-attachments/assets/fe10fe15-73c6-4df3-a859-5a6f2a564f66)
 
+![image](https://github.com/user-attachments/assets/9f2504b7-b814-435b-bbce-e8bd8012ed9c)
+
+
 
 
