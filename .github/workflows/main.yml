@@ -1,0 +1,35 @@
+name: C# Build
+
+# Triggers the workflow on push and pull requests to the master branch
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build:
+  
+    runs-on: windows-latest
+
+    steps:
+      # Step 1: Clone the repository
+      - name: Checkout the repository
+        uses: actions/checkout@v4 
+
+      # Step 2: Install .NET SDK
+      - name: Install .NET SDK
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '7.x'  
+      # Step 3: Restore NuGet dependencies
+      - name: Restore dependencies
+        run: |
+          dotnet restore  # Retrieves all necessary dependencies for the project
+
+      # Step 4: Build the project in Release mode without restoring dependencies again
+      - name: Build the solution
+        run: |
+          dotnet build --configuration Release --no-restore  # Builds the project for release
