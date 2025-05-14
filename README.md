@@ -70,3 +70,11 @@ The bot will display different answers related to that topic
 ![Screenshot 2025-04-03 213821](https://github.com/user-attachments/assets/ab1dddbc-3d77-4d2b-8a42-9ae5124fc594)
 
 
+![Screenshot 2025-05-14 213305](https://github.com/user-attachments/assets/d9b28076-06ea-4ba0-bb99-c5fd0c953f57)
+
+![Screenshot 2025-05-14 213724](https://github.com/user-attachments/assets/0125ae97-8a3c-4df2-9899-80a6489fe04d)
+
+![Screenshot 2025-05-14 213623](https://github.com/user-attachments/assets/fe10fe15-73c6-4df3-a859-5a6f2a564f66)
+
+
+
