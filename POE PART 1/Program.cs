@@ -21,6 +21,8 @@ namespace POE_PART_1
             // Creates an instance of the Storing class
             // This initializes the chatbot functionality for cybersecurity-related queries
             new Storing() { };
+
+            new memory_recal(){ };
         }
     }
 }
