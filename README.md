@@ -40,6 +40,23 @@ Exit Commands
 The chatbot listens for commands like exit, bye, or stop.
 If one of these commands is detected, the chatbot politely ends the conversation and exits the program.
 
+On MY PART 2
+
+I added a new class for memory and recall 
+This class is for when the user enter the topic of what they want to know
+It will be stored in the memory class
+And when the user exits the program, and they run the program 
+The user will be asked if they want to continue from the previous topic displaying yes or no option
+If they input yes it will show the previous topic
+If they input no it will start all over
+
+I added a method for sentiments, emotions of the user
+If the user input something like im curious it will console the user to not worry
+This is to have a good interaction between the bot and the user
+
+I also added a method for random answers 
+This is when the user inputs something like "tell me about spyware"
+The bot will display different answers related to that topic
 
 ![Screenshot 2025-04-03 211758](https://github.com/user-attachments/assets/cebb59bf-f155-408d-be28-9d83aa08dcac)
 
